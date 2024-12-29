@@ -1,0 +1,1321 @@
+2024-12-29 15:31:30,209 19948 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 15:31:30,210 19948 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 15:31:30,210 19948 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 15:31:30,210 19948 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 15:31:31,588 19948 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 15:31:31,606 19948 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 15:31:34,152 19948 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\vobject\base.py:736: SyntaxWarning: invalid escape sequence '\-'
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\service\server.py", line 1353, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\service\server.py", line 1252, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\web\models\__init__.py", line 12, in <module>
+    from . import res_partner
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\warnings.py", line 110, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\netsvc.py", line 317, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-12-29 15:31:34,154 19948 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\vobject\base.py:1219: SyntaxWarning: invalid escape sequence '\;'
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\service\server.py", line 1353, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\service\server.py", line 1252, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\web\models\__init__.py", line 12, in <module>
+    from . import res_partner
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\warnings.py", line 110, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\netsvc.py", line 317, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-12-29 15:31:34,155 19948 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\vobject\base.py:1219: SyntaxWarning: invalid escape sequence '\,'
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\service\server.py", line 1353, in start
+    load_server_wide_modules()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\service\server.py", line 1252, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\web\models\__init__.py", line 12, in <module>
+    from . import res_partner
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\warnings.py", line 110, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\netsvc.py", line 317, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-12-29 15:31:34,278 19948 INFO ? odoo.service.server: Initiating shutdown 
+2024-12-29 15:31:34,278 19948 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-12-29 15:31:43,805 16260 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 15:31:43,805 16260 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 15:31:43,805 16260 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 15:31:43,805 16260 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 15:31:44,021 16260 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 15:31:44,034 16260 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 15:31:45,162 16260 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 15:31:49,260 16260 INFO ? odoo.sql_db: Connection to the database failed 
+2024-12-29 15:31:53,349 16260 INFO ? odoo.sql_db: Connection to the database failed 
+2024-12-29 15:36:11,821 16260 INFO ? odoo.service.server: Initiating shutdown 
+2024-12-29 15:36:11,821 16260 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-12-29 15:36:11,834 16260 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 0 connections  
+2024-12-29 15:36:15,557 20112 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 15:36:15,557 20112 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 15:36:15,557 20112 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 15:36:15,558 20112 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 15:36:15,705 20112 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 15:36:15,716 20112 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 15:36:15,998 20112 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 15:36:16,263 20112 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 15:36:16,276 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Start Nginx server: C:\Program Files\Odoo 18.0.20241229\nginx-1.22.0\nginx.exe 
+2024-12-29 15:36:16,283 20112 INFO ? odoo.addons.hw_drivers.main: IoT Box Image version: W23.11-18.0-20241229 
+2024-12-29 15:36:16,283 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:36:16,283 20112 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 15:36:17,232 20112 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 15:36:18,092 20112 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py:504: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\main.py", line 113, in run
+    helpers.load_iot_handlers()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\tools\helpers.py", line 453, in load_iot_handlers
+    spec.loader.exec_module(module)
+  File "c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\drivers\PrinterDriver_W.py", line 9, in <module>
+    import ghostscript
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\__init__.py", line 32, in <module>
+    from . import _gsprint as gs
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 518, in <module>
+    libgs = __win32_finddll()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 504, in __win32_finddll
+    dlls.append((LooseVersion(version), dll_path))
+ 
+2024-12-29 15:36:18,113 20112 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 15:36:18,115 20112 INFO ? odoo.addons.hw_drivers.interface: Device AnyDesk Printer is now connected 
+2024-12-29 15:36:21,114 20112 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 15:36:23,557 20112 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now connected 
+2024-12-29 15:36:24,115 20112 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 15:45:14,388 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:14] "GET / HTTP/1.1" 200 - 0 0.000 0.022
+2024-12-29 15:45:22,894 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:22] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 0 0.000 8.120
+2024-12-29 15:45:22,911 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:22] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 0 0.000 8.136
+2024-12-29 15:45:22,944 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:22] "GET /hw_posbox_homepage/static/src/app/css/override.css HTTP/1.1" 200 - 0 0.000 8.172
+2024-12-29 15:45:22,944 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:22] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 0 0.000 8.329
+2024-12-29 15:45:22,962 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:22] "GET /web/static/lib/bootstrap/js/dist/util/index.js HTTP/1.1" 200 - 0 0.000 8.188
+2024-12-29 15:45:22,971 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:22] "GET /web/static/lib/owl/owl.js HTTP/1.1" 200 - 0 0.000 8.199
+2024-12-29 15:45:23,238 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 0 0.000 0.018
+2024-12-29 15:45:23,251 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 0 0.000 0.048
+2024-12-29 15:45:23,267 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/util/config.js HTTP/1.1" 200 - 0 0.000 0.016
+2024-12-29 15:45:23,267 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 0 0.000 0.018
+2024-12-29 15:45:23,285 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/util/component-functions.js HTTP/1.1" 200 - 0 0.000 0.019
+2024-12-29 15:45:23,302 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/util/sanitizer.js HTTP/1.1" 200 - 0 0.000 0.021
+2024-12-29 15:45:23,569 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/util/backdrop.js HTTP/1.1" 200 - 0 0.000 0.023
+2024-12-29 15:45:23,582 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/util/focustrap.js HTTP/1.1" 200 - 0 0.000 0.019
+2024-12-29 15:45:23,592 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/util/scrollbar.js HTTP/1.1" 200 - 0 0.000 0.020
+2024-12-29 15:45:23,601 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 0 0.000 0.030
+2024-12-29 15:45:23,613 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/alert.js HTTP/1.1" 200 - 0 0.000 0.020
+2024-12-29 15:45:23,626 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/button.js HTTP/1.1" 200 - 0 0.000 0.018
+2024-12-29 15:45:23,911 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/collapse.js HTTP/1.1" 200 - 0 0.000 0.023
+2024-12-29 15:45:23,921 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/carousel.js HTTP/1.1" 200 - 0 0.000 0.034
+2024-12-29 15:45:23,948 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/dropdown.js HTTP/1.1" 200 - 0 0.000 0.045
+2024-12-29 15:45:23,951 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 0 0.000 0.038
+2024-12-29 15:45:23,958 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:23] "GET /web/static/lib/bootstrap/js/dist/offcanvas.js HTTP/1.1" 200 - 0 0.000 0.042
+2024-12-29 15:45:24,013 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:24] "GET /web/static/lib/bootstrap/js/dist/tooltip.js HTTP/1.1" 200 - 0 0.000 0.081
+2024-12-29 15:45:24,234 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:24] "GET /web/static/lib/bootstrap/js/dist/popover.js HTTP/1.1" 200 - 0 0.000 0.017
+2024-12-29 15:45:24,257 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:24] "GET /web/static/lib/bootstrap/js/dist/scrollspy.js HTTP/1.1" 200 - 0 0.000 0.025
+2024-12-29 15:45:24,276 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:24] "GET /hw_posbox_homepage/static/src/app/main.js HTTP/1.1" 200 - 0 0.000 0.013
+2024-12-29 15:45:24,280 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:24] "GET /web/static/lib/bootstrap/js/dist/toast.js HTTP/1.1" 200 - 0 0.000 0.021
+2024-12-29 15:45:24,301 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:24] "GET /web/static/lib/bootstrap/js/dist/tab.js HTTP/1.1" 200 - 0 0.000 0.044
+2024-12-29 15:45:24,637 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:24] "GET /hw_posbox_homepage/static/src/app/store.js HTTP/1.1" 200 - 0 0.000 0.014
+2024-12-29 15:45:24,640 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:24] "GET /hw_posbox_homepage/static/src/app/Homepage.js HTTP/1.1" 200 - 0 0.000 0.017
+2024-12-29 15:45:24,903 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:24] "GET /hw_posbox_homepage/static/src/app/components/SingleData.js HTTP/1.1" 200 - 0 0.000 0.014
+2024-12-29 15:45:24,967 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:24] "GET /hw_posbox_homepage/static/src/app/components/FooterButtons.js HTTP/1.1" 200 - 0 0.000 0.014
+2024-12-29 15:45:24,971 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:24] "GET /hw_posbox_homepage/static/src/app/components/dialog/ServerDialog.js HTTP/1.1" 200 - 0 0.000 0.019
+2024-12-29 15:45:24,972 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:24] "GET /hw_posbox_homepage/static/src/app/components/dialog/WifiDialog.js HTTP/1.1" 200 - 0 0.000 0.018
+2024-12-29 15:45:25,238 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:25] "GET /hw_posbox_homepage/static/src/app/hooks/useStore.js HTTP/1.1" 200 - 0 0.000 0.021
+2024-12-29 15:45:25,295 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:25] "GET /hw_posbox_homepage/static/src/app/components/dialog/DeviceDialog.js HTTP/1.1" 200 - 0 0.000 0.015
+2024-12-29 15:45:25,295 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:25] "GET /hw_posbox_homepage/static/src/app/components/dialog/SixDialog.js HTTP/1.1" 200 - 0 0.000 0.014
+2024-12-29 15:45:25,295 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:25] "GET /hw_posbox_homepage/static/src/app/components/dialog/UpdateDialog.js HTTP/1.1" 200 - 0 0.000 0.016
+2024-12-29 15:45:25,570 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:25] "GET /hw_posbox_homepage/static/src/app/components/LoadingFullScreen.js HTTP/1.1" 200 - 0 0.000 0.025
+2024-12-29 15:45:25,620 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:25] "GET /hw_posbox_homepage/static/src/app/components/IconButton.js HTTP/1.1" 200 - 0 0.000 0.012
+2024-12-29 15:45:25,624 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:25] "GET /hw_posbox_homepage/static/src/app/components/dialog/HandlerDialog.js HTTP/1.1" 200 - 0 0.000 0.016
+2024-12-29 15:45:25,625 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:25] "GET /hw_posbox_homepage/static/src/app/components/dialog/CredentialDialog.js HTTP/1.1" 200 - 0 0.000 0.016
+2024-12-29 15:45:25,910 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:25] "GET /hw_posbox_homepage/static/src/app/components/dialog/RemoteDebugDialog.js HTTP/1.1" 200 - 0 0.000 0.022
+2024-12-29 15:45:25,950 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:25] "GET /hw_posbox_homepage/static/src/app/components/dialog/BootstrapDialog.js HTTP/1.1" 200 - 0 0.000 0.015
+2024-12-29 15:45:25,967 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:45:26,020 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:26] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.054
+2024-12-29 15:45:26,375 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:26] "GET /favicon.ico HTTP/1.1" 404 - 0 0.000 0.001
+2024-12-29 15:45:27,655 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:27] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.011
+2024-12-29 15:45:36,273 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:45:36,308 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:36] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.036
+2024-12-29 15:45:46,278 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:45:46,335 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:46] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.058
+2024-12-29 15:45:56,586 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:45:56,647 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:45:56] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.061
+2024-12-29 15:46:06,276 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:46:06,330 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:46:06] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.056
+2024-12-29 15:46:16,583 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:46:16,635 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:46:16] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.053
+2024-12-29 15:46:25,982 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:46:26,014 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:46:26] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.033
+2024-12-29 15:46:36,285 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:46:36,318 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:46:36] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.034
+2024-12-29 15:46:46,269 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:46:46,306 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:46:46] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.039
+2024-12-29 15:46:56,593 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:46:56,630 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:46:56] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.039
+2024-12-29 15:47:06,281 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:47:06,313 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:47:06] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 15:47:16,587 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:47:16,618 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:47:16] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 15:47:26,268 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:47:26,300 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:47:26] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.033
+2024-12-29 15:47:36,499 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:47:36,537 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:47:36] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.041
+2024-12-29 15:47:46,276 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:47:46,307 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:47:46] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.033
+2024-12-29 15:47:56,280 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:47:56,314 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:47:56] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.035
+2024-12-29 15:47:57,043 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:47:57] "POST /hw_posbox_homepage/connect_to_server HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 15:48:06,268 20112 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 15:48:06,301 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:06] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.034
+2024-12-29 15:48:06,538 20112 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:06] "POST /hw_posbox_homepage/connect_to_server HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:11,482 4992 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 15:48:11,482 4992 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 15:48:11,482 4992 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 15:48:11,482 4992 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 15:48:11,612 4992 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 15:48:11,723 4992 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 15:48:11,724 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Start Nginx server: C:\Program Files\Odoo 18.0.20241229\nginx-1.22.0\nginx.exe 
+2024-12-29 15:48:11,732 4992 INFO ? odoo.addons.hw_drivers.main: IoT Box Image version: W23.11-18.0-20241229 
+2024-12-29 15:48:11,743 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:48:12,050 4992 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 15:48:12,062 4992 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 15:48:12,303 4992 WARNING ? odoo.addons.hw_drivers.main: An error happened when trying to get the HTTPS certificate: ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT 
+2024-12-29 15:48:13,116 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Deleted old IoT handlers 
+2024-12-29 15:48:13,145 4992 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 15:48:14,642 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Downloaded odoo\addons\hw_drivers\iot_handlers\lib\ctep_w.zip from http://nightly.odoo.com/master/posbox/iotbox/worldline-ctepv23_02_w.zip 
+2024-12-29 15:48:14,703 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Unzipped odoo\addons\hw_drivers\iot_handlers\lib\ctep_w.zip to odoo\addons\hw_drivers\iot_handlers\lib\ctep_w 
+2024-12-29 15:48:14,850 4992 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 15:48:15,296 4992 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py:504: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\main.py", line 113, in run
+    helpers.load_iot_handlers()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\tools\helpers.py", line 453, in load_iot_handlers
+    spec.loader.exec_module(module)
+  File "c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\drivers\PrinterDriver_W.py", line 9, in <module>
+    import ghostscript
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\__init__.py", line 32, in <module>
+    from . import _gsprint as gs
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 518, in <module>
+    libgs = __win32_finddll()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 504, in __win32_finddll
+    dlls.append((LooseVersion(version), dll_path))
+ 
+2024-12-29 15:48:15,360 4992 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 15:48:15,387 4992 INFO ? odoo.addons.hw_drivers.interface: Device AnyDesk Printer is now connected 
+2024-12-29 15:48:16,299 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:48:16,807 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:16] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.533
+2024-12-29 15:48:18,277 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:18] "GET /hw_posbox_homepage/ping HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 15:48:18,602 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:18] "GET / HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 15:48:19,767 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:19] "GET /web/static/lib/owl/owl.js HTTP/1.1" 200 - 0 0.000 0.916
+2024-12-29 15:48:19,771 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:19] "GET /web/static/lib/bootstrap/js/dist/util/index.js HTTP/1.1" 200 - 0 0.000 0.810
+2024-12-29 15:48:19,774 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:19] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 0 0.000 0.812
+2024-12-29 15:48:19,787 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:19] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 0 0.000 0.004
+2024-12-29 15:48:20,100 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /hw_posbox_homepage/static/src/app/css/override.css HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:20,101 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:20,102 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 15:48:20,304 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:20,305 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:20,308 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/util/config.js HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:20,413 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/util/sanitizer.js HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:20,413 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/util/component-functions.js HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-29 15:48:20,414 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/util/backdrop.js HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:20,617 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/util/scrollbar.js HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:20,618 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/util/focustrap.js HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-29 15:48:20,619 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:20,725 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/carousel.js HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 15:48:20,726 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/button.js HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-29 15:48:20,727 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/alert.js HTTP/1.1" 200 - 0 0.000 0.004
+2024-12-29 15:48:20,926 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/dropdown.js HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-29 15:48:20,927 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/collapse.js HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-29 15:48:20,927 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:20] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-29 15:48:21,033 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /web/static/lib/bootstrap/js/dist/offcanvas.js HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:21,034 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /web/static/lib/bootstrap/js/dist/tooltip.js HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:21,047 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /web/static/lib/bootstrap/js/dist/popover.js HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 15:48:21,250 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /web/static/lib/bootstrap/js/dist/tab.js HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 15:48:21,251 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /web/static/lib/bootstrap/js/dist/scrollspy.js HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:21,254 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /web/static/lib/bootstrap/js/dist/toast.js HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:21,342 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /hw_posbox_homepage/static/src/app/main.js HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 15:48:21,654 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /hw_posbox_homepage/static/src/app/store.js HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 15:48:21,655 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /hw_posbox_homepage/static/src/app/Homepage.js HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-29 15:48:21,917 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /hw_posbox_homepage/static/src/app/components/SingleData.js HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 15:48:21,966 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /hw_posbox_homepage/static/src/app/components/FooterButtons.js HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:21,969 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /hw_posbox_homepage/static/src/app/components/dialog/ServerDialog.js HTTP/1.1" 200 - 0 0.000 0.004
+2024-12-29 15:48:21,971 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /hw_posbox_homepage/static/src/app/components/dialog/WifiDialog.js HTTP/1.1" 200 - 0 0.000 0.004
+2024-12-29 15:48:21,973 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /hw_posbox_homepage/static/src/app/hooks/useStore.js HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-29 15:48:21,975 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:21] "GET /hw_posbox_homepage/static/src/app/components/dialog/UpdateDialog.js HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-29 15:48:22,047 4992 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now connected 
+2024-12-29 15:48:22,230 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:22] "GET /hw_posbox_homepage/static/src/app/components/dialog/DeviceDialog.js HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 15:48:22,279 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:22] "GET /hw_posbox_homepage/static/src/app/components/dialog/SixDialog.js HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-29 15:48:22,280 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:22] "GET /hw_posbox_homepage/static/src/app/components/LoadingFullScreen.js HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-29 15:48:22,282 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:22] "GET /hw_posbox_homepage/static/src/app/components/IconButton.js HTTP/1.1" 200 - 0 0.000 0.004
+2024-12-29 15:48:22,286 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:22] "GET /hw_posbox_homepage/static/src/app/components/dialog/CredentialDialog.js HTTP/1.1" 200 - 0 0.000 0.005
+2024-12-29 15:48:22,287 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:22] "GET /hw_posbox_homepage/static/src/app/components/dialog/HandlerDialog.js HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-29 15:48:22,538 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:22] "GET /hw_posbox_homepage/static/src/app/components/dialog/RemoteDebugDialog.js HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 15:48:22,585 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:22] "GET /hw_posbox_homepage/static/src/app/components/dialog/BootstrapDialog.js HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 15:48:22,911 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:48:23,439 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:23] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.530
+2024-12-29 15:48:27,572 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:27] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 15:48:32,924 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:48:33,442 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:33] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.520
+2024-12-29 15:48:43,273 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:48:43,784 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:43] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.513
+2024-12-29 15:48:53,572 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:48:54,090 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:48:54] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.520
+2024-12-29 15:49:03,275 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:49:03,808 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:49:03] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.535
+2024-12-29 15:49:13,584 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:49:14,093 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:49:14] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.510
+2024-12-29 15:49:23,277 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:49:23,799 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:49:23] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.524
+2024-12-29 15:49:33,592 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:49:34,105 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:49:34] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.515
+2024-12-29 15:49:43,274 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:49:43,782 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:49:43] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.509
+2024-12-29 15:49:53,582 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:49:54,105 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:49:54] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.524
+2024-12-29 15:50:03,272 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:50:03,806 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:50:03] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.535
+2024-12-29 15:50:13,593 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:50:14,107 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:50:14] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.515
+2024-12-29 15:50:23,275 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:50:23,785 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:50:23] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.511
+2024-12-29 15:50:33,591 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:50:34,127 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:50:34] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.538
+2024-12-29 15:50:45,274 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:50:45,786 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:50:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.513
+2024-12-29 15:51:45,591 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:51:46,116 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:51:46] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.527
+2024-12-29 15:51:52,601 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:51:53,122 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:51:53] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.522
+2024-12-29 15:51:56,697 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:51:56] "GET / HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 15:51:56,963 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:51:57,470 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:51:57] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.508
+2024-12-29 15:52:06,784 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:52:07,290 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:52:07] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.509
+2024-12-29 15:52:17,581 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:52:18,090 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:52:18] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.510
+2024-12-29 15:52:27,277 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:52:27,788 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:52:27] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.512
+2024-12-29 15:52:37,584 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:52:38,098 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:52:38] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.515
+2024-12-29 15:52:47,279 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:52:47,850 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:52:47] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.573
+2024-12-29 15:52:57,589 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:52:58,192 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:52:58] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.604
+2024-12-29 15:53:07,353 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:53:08,562 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:53:08] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 1.214
+2024-12-29 15:53:45,632 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:53:46,357 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:53:46] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.728
+2024-12-29 15:54:45,274 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:54:45,808 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:54:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.536
+2024-12-29 15:55:45,582 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:55:46,108 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:55:46] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.527
+2024-12-29 15:56:45,273 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:56:45,782 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:56:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.510
+2024-12-29 15:57:04,961 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:57:05,485 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:57:05] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.525
+2024-12-29 15:57:06,782 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:57:07,301 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:57:07] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.522
+2024-12-29 15:57:17,636 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:57:18,138 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:57:18] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.502
+2024-12-29 15:57:27,303 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:57:27,971 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:57:27] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.671
+2024-12-29 15:57:37,644 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:57:38,336 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:57:38] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.694
+2024-12-29 15:57:47,277 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:57:47,822 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:57:47] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.547
+2024-12-29 15:57:57,587 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:57:58,083 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:57:58] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.499
+2024-12-29 15:58:07,270 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:58:07,791 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:58:07] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.523
+2024-12-29 15:58:17,586 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:58:18,090 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:58:18] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.505
+2024-12-29 15:58:27,273 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:58:27,792 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:58:27] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.520
+2024-12-29 15:58:45,585 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:58:46,092 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:58:46] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.508
+2024-12-29 15:59:45,277 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 15:59:45,794 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 15:59:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.519
+2024-12-29 16:00:12,576 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:00:13,083 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:00:13] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.507
+2024-12-29 16:00:17,283 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:00:17,797 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:00:17] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.515
+2024-12-29 16:00:27,597 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:00:28,259 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:00:28] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.665
+2024-12-29 16:00:37,273 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:00:37,780 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:00:37] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.508
+2024-12-29 16:00:47,590 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:00:48,105 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:00:48] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.516
+2024-12-29 16:00:57,268 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:00:57,794 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:00:57] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.527
+2024-12-29 16:01:07,587 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:01:08,119 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:01:08] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.533
+2024-12-29 16:01:45,273 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:01:45,786 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:01:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.515
+2024-12-29 16:02:45,581 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:02:46,090 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:02:46] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.510
+2024-12-29 16:03:16,282 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:03:16,812 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:03:16] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.532
+2024-12-29 16:03:17,116 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:03:17,648 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:03:17] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.533
+2024-12-29 16:03:27,585 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:03:28,097 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:03:28] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.513
+2024-12-29 16:03:37,280 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:03:37,814 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:03:37] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.535
+2024-12-29 16:03:47,590 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:03:48,125 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:03:48] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.535
+2024-12-29 16:03:57,278 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:03:57,816 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:03:57] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.539
+2024-12-29 16:04:07,587 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:04:08,103 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:04:08] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.517
+2024-12-29 16:04:17,280 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:04:17,823 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:04:17] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.545
+2024-12-29 16:04:45,581 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:04:46,082 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:04:46] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.503
+2024-12-29 16:04:48,831 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:04:49,336 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:04:49] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.507
+2024-12-29 16:04:50,550 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:04:50] "GET / HTTP/1.1" 200 - 0 0.000 0.000
+2024-12-29 16:04:50,816 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:04:51,324 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:04:51] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.509
+2024-12-29 16:05:00,654 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:05:01,157 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:05:01] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.504
+2024-12-29 16:05:11,587 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:05:12,099 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:05:12] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.514
+2024-12-29 16:05:21,268 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:05:21,793 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:05:21] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.527
+2024-12-29 16:05:31,588 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:05:32,097 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:05:32] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.510
+2024-12-29 16:05:41,279 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:05:41,813 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:05:41] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.535
+2024-12-29 16:05:51,594 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:05:52,138 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:05:52] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.545
+2024-12-29 16:06:00,653 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:06:01,176 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:06:01] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.524
+2024-12-29 16:06:11,593 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:06:12,087 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:06:12] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.495
+2024-12-29 16:06:21,274 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:06:21,781 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:06:21] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.508
+2024-12-29 16:06:31,587 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:06:32,106 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:06:32] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.520
+2024-12-29 16:06:41,276 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:06:41,793 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:06:41] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.523
+2024-12-29 16:06:51,590 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:06:52,145 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:06:52] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.556
+2024-12-29 16:07:01,280 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:07:01,785 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:07:01] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.506
+2024-12-29 16:07:45,588 4992 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:07:46,117 4992 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:07:46] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.530
+2024-12-29 16:07:51,166 412 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:07:51,166 412 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:07:51,166 412 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:07:51,167 412 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:07:51,226 412 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:07:51,328 412 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:07:51,329 412 INFO ? odoo.addons.hw_drivers.tools.helpers: Start Nginx server: C:\Program Files\Odoo 18.0.20241229\nginx-1.22.0\nginx.exe 
+2024-12-29 16:07:51,350 412 INFO ? odoo.addons.hw_drivers.main: IoT Box Image version: W23.11-18.0-20241229 
+2024-12-29 16:07:51,350 412 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:07:51,350 412 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:07:51,362 412 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:07:51,523 412 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py:504: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\main.py", line 113, in run
+    helpers.load_iot_handlers()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\tools\helpers.py", line 405, in load_iot_handlers
+    spec.loader.exec_module(module)
+  File "c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\drivers\PrinterDriver_W.py", line 9, in <module>
+    import ghostscript
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\__init__.py", line 32, in <module>
+    from . import _gsprint as gs
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 518, in <module>
+    libgs = __win32_finddll()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 504, in __win32_finddll
+    dlls.append((LooseVersion(version), dll_path))
+ 
+2024-12-29 16:07:51,533 412 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:07:51,539 412 INFO ? odoo.addons.hw_drivers.interface: Device AnyDesk Printer is now connected 
+2024-12-29 16:07:51,541 412 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:07:51,628 412 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:07:51,642 412 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:07:52,653 412 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:07:54,150 412 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:07:54] "GET / HTTP/1.1" 200 - 0 0.000 0.023
+2024-12-29 16:07:54,367 412 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:07:54,404 412 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:07:54] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.037
+2024-12-29 16:07:55,930 412 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:07:55] "GET / HTTP/1.1" 200 - 0 0.000 0.000
+2024-12-29 16:07:56,010 412 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:07:56,049 412 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:07:56] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.040
+2024-12-29 16:07:58,234 412 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now connected 
+2024-12-29 16:08:00,543 412 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:08:02,505 412 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:08:05,473 12280 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:08:05,473 12280 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:08:05,473 12280 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:08:05,474 12280 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:08:05,527 12280 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:08:05,579 12280 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:08:05,580 12280 INFO ? odoo.addons.hw_drivers.tools.helpers: Start Nginx server: C:\Program Files\Odoo 18.0.20241229\nginx-1.22.0\nginx.exe 
+2024-12-29 16:08:05,588 12280 INFO ? odoo.addons.hw_drivers.main: IoT Box Image version: W23.11-18.0-20241229 
+2024-12-29 16:08:05,591 12280 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:08:05,591 12280 WARNING ? odoo.addons.hw_drivers.main: An error happened when trying to get the HTTPS certificate: ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT 
+2024-12-29 16:08:05,789 12280 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:08:05,799 12280 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:08:06,469 12280 INFO ? odoo.addons.hw_drivers.tools.helpers: Deleted old IoT handlers 
+2024-12-29 16:08:06,537 12280 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:08:06,786 12280 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:08:06,791 12280 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py:504: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\main.py", line 113, in run
+    helpers.load_iot_handlers()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\tools\helpers.py", line 405, in load_iot_handlers
+    spec.loader.exec_module(module)
+  File "c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\drivers\PrinterDriver_W.py", line 9, in <module>
+    import ghostscript
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\__init__.py", line 32, in <module>
+    from . import _gsprint as gs
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 518, in <module>
+    libgs = __win32_finddll()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 504, in __win32_finddll
+    dlls.append((LooseVersion(version), dll_path))
+ 
+2024-12-29 16:08:06,830 12280 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:08:06,835 12280 INFO ? odoo.addons.hw_drivers.interface: Device AnyDesk Printer is now connected 
+2024-12-29 16:08:06,894 12280 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:08:06,928 12280 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:08:06] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.057
+2024-12-29 16:08:13,578 12280 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now connected 
+2024-12-29 16:08:16,294 12280 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:08:16,333 12280 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:08:16] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.041
+2024-12-29 16:08:26,579 12280 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:08:26,609 12280 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:08:26] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 16:08:36,268 12280 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:08:36,299 12280 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:08:36] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 16:08:39,248 20972 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:08:39,249 20972 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:08:39,249 20972 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:08:39,249 20972 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:08:39,372 20972 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:08:39,383 20972 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:08:39,533 20972 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:08:39,583 20972 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:08:39,600 20972 INFO ? odoo.addons.hw_drivers.tools.helpers: Start Nginx server: C:\Program Files\Odoo 18.0.20241229\nginx-1.22.0\nginx.exe 
+2024-12-29 16:08:39,607 20972 INFO ? odoo.addons.hw_drivers.main: IoT Box Image version: W23.11-18.0-20241229 
+2024-12-29 16:08:39,608 20972 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:08:39,608 20972 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:08:39,615 20972 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:08:39,795 20972 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py:504: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\main.py", line 113, in run
+    helpers.load_iot_handlers()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\tools\helpers.py", line 405, in load_iot_handlers
+    spec.loader.exec_module(module)
+  File "c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\drivers\PrinterDriver_W.py", line 9, in <module>
+    import ghostscript
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\__init__.py", line 32, in <module>
+    from . import _gsprint as gs
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 518, in <module>
+    libgs = __win32_finddll()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 504, in __win32_finddll
+    dlls.append((LooseVersion(version), dll_path))
+ 
+2024-12-29 16:08:39,806 20972 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:08:39,811 20972 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:08:39,812 20972 INFO ? odoo.addons.hw_drivers.interface: Device AnyDesk Printer is now connected 
+2024-12-29 16:08:40,645 20972 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:08:42,812 20972 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:08:43,704 20972 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:08:43] "GET / HTTP/1.1" 200 - 0 0.000 0.021
+2024-12-29 16:08:43,951 20972 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:08:43,986 20972 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:08:43] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.036
+2024-12-29 16:08:46,474 20972 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now connected 
+2024-12-29 16:08:48,813 20972 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:08:53,739 20972 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:08:53,772 20972 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:08:53] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.034
+2024-12-29 16:08:54,302 20972 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:08:54] "POST /hw_posbox_homepage/connect_to_server HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 16:08:56,351 2268 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:08:56,352 2268 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:08:56,352 2268 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:08:56,352 2268 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:08:56,408 2268 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:08:56,464 2268 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:08:56,466 2268 INFO ? odoo.addons.hw_drivers.tools.helpers: Start Nginx server: C:\Program Files\Odoo 18.0.20241229\nginx-1.22.0\nginx.exe 
+2024-12-29 16:08:56,475 2268 INFO ? odoo.addons.hw_drivers.main: IoT Box Image version: W23.11-18.0-20241229 
+2024-12-29 16:08:56,478 2268 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:08:56,478 2268 WARNING ? odoo.addons.hw_drivers.main: An error happened when trying to get the HTTPS certificate: ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT 
+2024-12-29 16:08:56,675 2268 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:08:56,686 2268 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:08:57,337 2268 INFO ? odoo.addons.hw_drivers.tools.helpers: Deleted old IoT handlers 
+2024-12-29 16:08:57,363 2268 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:08:57,568 2268 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py:504: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\main.py", line 113, in run
+    helpers.load_iot_handlers()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\tools\helpers.py", line 405, in load_iot_handlers
+    spec.loader.exec_module(module)
+  File "c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\drivers\PrinterDriver_W.py", line 9, in <module>
+    import ghostscript
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\__init__.py", line 32, in <module>
+    from . import _gsprint as gs
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 518, in <module>
+    libgs = __win32_finddll()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 504, in __win32_finddll
+    dlls.append((LooseVersion(version), dll_path))
+ 
+2024-12-29 16:08:57,596 2268 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:08:57,601 2268 INFO ? odoo.addons.hw_drivers.interface: Device AnyDesk Printer is now connected 
+2024-12-29 16:08:57,675 2268 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:09:04,077 2268 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:09:04,119 2268 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:09:04] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.067
+2024-12-29 16:09:04,278 2268 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now connected 
+2024-12-29 16:09:05,076 2268 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:09:05] "GET /hw_posbox_homepage/ping HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 16:09:05,401 2268 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:09:05] "GET / HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 16:09:05,651 2268 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:09:05,699 2268 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:09:05] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.049
+2024-12-29 16:09:16,279 2268 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:09:16,313 2268 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:09:16] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.035
+2024-12-29 16:09:26,590 2268 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:09:26,626 2268 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:09:26] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.037
+2024-12-29 16:09:36,270 2268 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:09:36,300 2268 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:09:36] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 16:09:46,587 2268 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:09:46,618 2268 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:09:46] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.033
+2024-12-29 16:09:56,282 2268 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:09:56,321 2268 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:09:56] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.040
+2024-12-29 16:10:06,589 2268 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:10:06,622 2268 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:10:06] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.034
+2024-12-29 16:10:08,867 18976 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:10:08,867 18976 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:10:08,867 18976 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:10:08,867 18976 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:10:08,923 18976 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:10:08,989 18976 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:10:08,991 18976 INFO ? odoo.addons.hw_drivers.tools.helpers: Start Nginx server: C:\Program Files\Odoo 18.0.20241229\nginx-1.22.0\nginx.exe 
+2024-12-29 16:10:08,998 18976 INFO ? odoo.addons.hw_drivers.main: IoT Box Image version: W23.11-18.0-20241229 
+2024-12-29 16:10:09,001 18976 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:10:09,002 18976 WARNING ? odoo.addons.hw_drivers.main: An error happened when trying to get the HTTPS certificate: ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT 
+2024-12-29 16:10:09,201 18976 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:10:09,212 18976 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:10:09,862 18976 INFO ? odoo.addons.hw_drivers.tools.helpers: Deleted old IoT handlers 
+2024-12-29 16:10:09,908 18976 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:10:10,102 18976 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py:504: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\main.py", line 113, in run
+    helpers.load_iot_handlers()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\tools\helpers.py", line 405, in load_iot_handlers
+    spec.loader.exec_module(module)
+  File "c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\drivers\PrinterDriver_W.py", line 9, in <module>
+    import ghostscript
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\__init__.py", line 32, in <module>
+    from . import _gsprint as gs
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 518, in <module>
+    libgs = __win32_finddll()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 504, in __win32_finddll
+    dlls.append((LooseVersion(version), dll_path))
+ 
+2024-12-29 16:10:10,126 18976 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:10:10,132 18976 INFO ? odoo.addons.hw_drivers.interface: Device AnyDesk Printer is now connected 
+2024-12-29 16:10:10,213 18976 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:10:16,811 18976 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now connected 
+2024-12-29 16:10:21,004 18976 INFO ? odoo.service.server: Initiating shutdown 
+2024-12-29 16:10:21,004 18976 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-12-29 16:10:23,540 25432 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:10:23,540 25432 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:10:23,540 25432 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:10:23,541 25432 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:10:23,748 25432 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:10:23,760 25432 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:10:24,040 25432 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:10:24,100 25432 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:10:24,101 25432 INFO ? odoo.addons.hw_drivers.tools.helpers: Start Nginx server: C:\Program Files\Odoo 18.0.20241229\nginx-1.22.0\nginx.exe 
+2024-12-29 16:10:24,109 25432 INFO ? odoo.addons.hw_drivers.main: IoT Box Image version: W23.11-18.0-20241229 
+2024-12-29 16:10:24,112 25432 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:10:24,112 25432 WARNING ? odoo.addons.hw_drivers.main: An error happened when trying to get the HTTPS certificate: ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT 
+2024-12-29 16:10:24,970 25432 INFO ? odoo.addons.hw_drivers.tools.helpers: Deleted old IoT handlers 
+2024-12-29 16:10:24,992 25432 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:10:25,010 25432 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:10:25,190 25432 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:10:25] "GET / HTTP/1.1" 200 - 0 0.000 0.023
+2024-12-29 16:10:25,228 25432 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py:504: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\main.py", line 113, in run
+    helpers.load_iot_handlers()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\tools\helpers.py", line 404, in load_iot_handlers
+    spec.loader.exec_module(module)
+  File "c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\drivers\PrinterDriver_W.py", line 9, in <module>
+    import ghostscript
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\__init__.py", line 32, in <module>
+    from . import _gsprint as gs
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 518, in <module>
+    libgs = __win32_finddll()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 504, in __win32_finddll
+    dlls.append((LooseVersion(version), dll_path))
+ 
+2024-12-29 16:10:25,260 25432 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:10:25,266 25432 INFO ? odoo.addons.hw_drivers.interface: Device AnyDesk Printer is now connected 
+2024-12-29 16:10:25,442 25432 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:10:25,476 25432 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:10:25] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.058
+2024-12-29 16:10:31,953 25432 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now connected 
+2024-12-29 16:10:35,904 25432 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:10:35,953 25432 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:10:35] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.051
+2024-12-29 16:10:46,268 25432 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:10:46,301 25432 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:10:46] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.034
+2024-12-29 16:10:56,593 25432 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:10:56,627 25432 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:10:56] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.035
+2024-12-29 16:11:06,277 25432 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:11:06,308 25432 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:11:06] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 16:11:16,593 25432 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:11:16,624 25432 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:11:16] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.033
+2024-12-29 16:11:26,275 25432 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:11:26,307 25432 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:11:26] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.033
+2024-12-29 16:11:36,592 25432 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:11:36,629 25432 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:11:36] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.038
+2024-12-29 16:12:45,591 25432 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:12:45,627 25432 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:12:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.037
+2024-12-29 16:13:45,282 25432 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:13:45,320 25432 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:13:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.039
+2024-12-29 16:14:45,582 25432 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:14:45,620 25432 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:14:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.039
+2024-12-29 16:15:40,818 25432 INFO ? odoo.service.server: Initiating shutdown 
+2024-12-29 16:15:40,818 25432 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-12-29 16:17:57,650 20332 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:17:57,651 20332 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:17:57,651 20332 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:17:57,651 20332 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:17:57,782 20332 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:17:57,793 20332 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:17:57,955 20332 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:17:58,042 20332 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:17:58,921 20332 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:18:04,366 20332 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:18:04] "GET / HTTP/1.1" 200 - 0 0.000 0.020
+2024-12-29 16:18:04,611 20332 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:18:04,649 20332 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:18:04] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.040
+2024-12-29 16:18:13,172 20332 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:18:13] "POST /hw_posbox_homepage/connect_to_server HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 16:18:14,786 20332 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:18:14,819 20332 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:18:14] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.033
+2024-12-29 16:18:24,468 20332 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:18:24,499 20332 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:18:24] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.031
+2024-12-29 16:18:34,773 20332 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:18:34,804 20332 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:18:34] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.031
+2024-12-29 16:18:45,273 20332 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:18:45,304 20332 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:18:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 16:18:55,588 20332 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:18:55,619 20332 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:18:55] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 16:19:05,273 20332 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:19:05,305 20332 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:19:05] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 16:19:15,590 20332 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:19:15,622 20332 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:19:15] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 16:19:25,269 20332 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:19:25,299 20332 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:19:25] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.030
+2024-12-29 16:19:35,591 20332 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:19:35,623 20332 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:19:35] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 16:19:45,273 20332 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:19:45,304 20332 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:19:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 16:20:15,473 20332 INFO ? odoo.service.server: Initiating shutdown 
+2024-12-29 16:20:15,473 20332 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-12-29 16:20:17,555 22716 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:20:17,555 22716 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:20:17,555 22716 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:20:17,555 22716 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:20:17,619 22716 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:20:17,710 22716 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:20:17,870 22716 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:20:17,880 22716 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:20:18,894 22716 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:20:21,767 22716 INFO ? odoo.service.server: Initiating shutdown 
+2024-12-29 16:20:21,767 22716 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-12-29 16:20:29,930 9352 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:20:29,930 9352 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:20:29,931 9352 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:20:29,931 9352 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:20:30,056 9352 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:20:30,065 9352 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:20:30,198 9352 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:20:30,248 9352 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:20:30,248 9352 INFO ? odoo.addons.hw_drivers.tools.helpers: Start Nginx server: fernando1792\nginx.exe 
+2024-12-29 16:20:30,269 9352 INFO ? odoo.addons.hw_drivers.main: IoT Box Image version: W23.11-18.0-20241229 
+2024-12-29 16:20:30,269 9352 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:20:30,269 9352 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:20:30,282 9352 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:20:30,461 9352 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py:504: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\main.py", line 113, in run
+    helpers.load_iot_handlers()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\tools\helpers.py", line 405, in load_iot_handlers
+    spec.loader.exec_module(module)
+  File "c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\drivers\PrinterDriver_W.py", line 9, in <module>
+    import ghostscript
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\__init__.py", line 32, in <module>
+    from . import _gsprint as gs
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 518, in <module>
+    libgs = __win32_finddll()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 504, in __win32_finddll
+    dlls.append((LooseVersion(version), dll_path))
+ 
+2024-12-29 16:20:30,469 9352 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:20:30,477 9352 INFO ? odoo.addons.hw_drivers.interface: Device AnyDesk Printer is now connected 
+2024-12-29 16:20:30,478 9352 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:20:31,331 9352 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:20:37,131 9352 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now connected 
+2024-12-29 16:20:39,480 9352 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:20:45,606 9352 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:20:45,649 9352 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:20:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.068
+2024-12-29 16:20:53,257 9352 INFO ? odoo.service.server: Initiating shutdown 
+2024-12-29 16:20:53,257 9352 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-12-29 16:21:18,595 9352 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:21:18,640 9352 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:21:18] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.046
+2024-12-29 16:21:18,643 9352 ERROR ? odoo.addons.hw_drivers.exception_logger: Exception ignored in: <module 'threading' from 'C:\\Program Files\\Odoo 18.0.20241229\\python\\Lib\\threading.py'> 
+2024-12-29 16:21:18,643 9352 ERROR ? odoo.addons.hw_drivers.exception_logger: Traceback (most recent call last): 
+2024-12-29 16:21:18,643 9352 ERROR ? odoo.addons.hw_drivers.exception_logger:   File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1622, in _shutdown 
+2024-12-29 16:21:18,644 9352 ERROR ? odoo.addons.hw_drivers.exception_logger:     lock.acquire() 
+2024-12-29 16:21:18,644 9352 ERROR ? odoo.addons.hw_drivers.exception_logger: KeyboardInterrupt:  
+2024-12-29 16:22:06,655 15088 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:22:06,655 15088 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:22:06,655 15088 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:22:06,655 15088 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:22:06,718 15088 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:22:06,805 15088 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:22:06,957 15088 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:22:06,967 15088 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:22:07,989 15088 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:22:09,246 15088 INFO ? odoo.service.server: Initiating shutdown 
+2024-12-29 16:22:09,247 15088 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-12-29 16:22:18,271 24716 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:22:18,272 24716 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:22:18,272 24716 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:22:18,272 24716 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:22:18,397 24716 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:22:18,405 24716 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:22:18,558 24716 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:22:18,607 24716 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:22:19,539 24716 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:22:22,411 24716 INFO ? odoo.service.server: Initiating shutdown 
+2024-12-29 16:22:22,411 24716 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-12-29 16:22:45,142 4036 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:22:45,142 4036 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:22:45,142 4036 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:22:45,142 4036 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:22:45,206 4036 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:22:45,256 4036 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:22:45,428 4036 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:22:45,452 4036 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:22:46,462 4036 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:22:47,537 4036 INFO ? odoo.service.server: Initiating shutdown 
+2024-12-29 16:22:47,537 4036 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-12-29 16:22:56,864 9272 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:22:56,864 9272 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:22:56,864 9272 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:22:56,865 9272 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:22:56,992 9272 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:22:57,001 9272 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:22:57,183 9272 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:22:57,254 9272 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:22:57,272 9272 INFO ? odoo.addons.hw_drivers.tools.helpers: Start Nginx server: C:\Program Files\Odoo 18.0.20241229\nginx-1.22.0\nginx.exe 
+2024-12-29 16:22:57,280 9272 INFO ? odoo.addons.hw_drivers.main: IoT Box Image version: W23.11-18.0-20241229 
+2024-12-29 16:22:57,281 9272 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:22:57,281 9272 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:22:57,290 9272 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:22:57,450 9272 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py:504: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\main.py", line 113, in run
+    helpers.load_iot_handlers()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\tools\helpers.py", line 405, in load_iot_handlers
+    spec.loader.exec_module(module)
+  File "c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\drivers\PrinterDriver_W.py", line 9, in <module>
+    import ghostscript
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\__init__.py", line 32, in <module>
+    from . import _gsprint as gs
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 518, in <module>
+    libgs = __win32_finddll()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 504, in __win32_finddll
+    dlls.append((LooseVersion(version), dll_path))
+ 
+2024-12-29 16:22:57,455 9272 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:22:57,461 9272 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:22:57,462 9272 INFO ? odoo.addons.hw_drivers.interface: Device AnyDesk Printer is now connected 
+2024-12-29 16:22:58,129 9272 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:23:00,463 9272 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:23:04,128 9272 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now connected 
+2024-12-29 16:23:04,670 9272 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:23:04] "GET / HTTP/1.1" 200 - 0 0.000 0.021
+2024-12-29 16:23:04,917 9272 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:23:04,950 9272 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:23:04] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.034
+2024-12-29 16:23:06,464 9272 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:23:12,505 9272 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:23:12] "POST /hw_posbox_homepage/connect_to_server HTTP/1.1" 200 - 0 0.000 0.003
+2024-12-29 16:25:34,364 22356 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:25:34,364 22356 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:25:34,364 22356 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:25:34,364 22356 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:25:34,506 22356 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:25:34,519 22356 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:25:34,752 22356 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:25:34,851 22356 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:25:34,869 22356 INFO ? odoo.addons.hw_drivers.tools.helpers: Start Nginx server: C:\Program Files\Odoo 18.0.20241229\nginx-1.22.0\nginx.exe 
+2024-12-29 16:25:34,877 22356 INFO ? odoo.addons.hw_drivers.main: IoT Box Image version: W23.11-18.0-20241229 
+2024-12-29 16:25:34,877 22356 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:25:34,877 22356 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:25:34,885 22356 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:25:35,044 22356 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py:504: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\main.py", line 113, in run
+    helpers.load_iot_handlers()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\tools\helpers.py", line 404, in load_iot_handlers
+    spec.loader.exec_module(module)
+  File "c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\drivers\PrinterDriver_W.py", line 9, in <module>
+    import ghostscript
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\__init__.py", line 32, in <module>
+    from . import _gsprint as gs
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 518, in <module>
+    libgs = __win32_finddll()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 504, in __win32_finddll
+    dlls.append((LooseVersion(version), dll_path))
+ 
+2024-12-29 16:25:35,049 22356 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:25:35,054 22356 INFO ? odoo.addons.hw_drivers.interface: Device AnyDesk Printer is now connected 
+2024-12-29 16:25:35,055 22356 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:25:35,738 22356 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:25:41,710 22356 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now connected 
+2024-12-29 16:25:43,853 22356 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:25:43] "GET / HTTP/1.1" 200 - 0 0.000 0.022
+2024-12-29 16:25:44,056 22356 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:25:44,082 22356 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:25:44,117 22356 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:25:44] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.035
+2024-12-29 16:25:54,275 22356 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:25:54,306 22356 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:25:54] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 16:25:57,083 22356 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:25:57] "POST /hw_posbox_homepage/connect_to_server HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 16:30:51,854 21256 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:30:51,855 21256 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:30:51,855 21256 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:30:51,855 21256 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:30:51,904 21256 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:30:52,000 21256 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:30:52,143 21256 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:30:52,153 21256 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:30:53,140 21256 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:31:10,299 21256 INFO ? odoo.service.server: Initiating shutdown 
+2024-12-29 16:31:10,299 21256 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-12-29 16:31:12,689 20836 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:31:12,689 20836 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:31:12,689 20836 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:31:12,689 20836 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:31:12,758 20836 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:31:12,828 20836 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:31:12,829 20836 INFO ? odoo.addons.hw_drivers.tools.helpers: Start Nginx server: C:\Program Files\Odoo 18.0.20241229\nginx-1.22.0\nginx.exe 
+2024-12-29 16:31:12,837 20836 INFO ? odoo.addons.hw_drivers.main: IoT Box Image version: W23.11-18.0-20241229 
+2024-12-29 16:31:12,841 20836 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:31:12,841 20836 WARNING ? odoo.addons.hw_drivers.main: An error happened when trying to get the HTTPS certificate: ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT 
+2024-12-29 16:31:13,049 20836 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:31:13,057 20836 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:31:13,681 20836 INFO ? odoo.addons.hw_drivers.tools.helpers: Deleted old IoT handlers 
+2024-12-29 16:31:13,704 20836 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:31:13,897 20836 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py:504: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\main.py", line 113, in run
+    helpers.load_iot_handlers()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\tools\helpers.py", line 404, in load_iot_handlers
+    spec.loader.exec_module(module)
+  File "c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\drivers\PrinterDriver_W.py", line 9, in <module>
+    import ghostscript
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\__init__.py", line 32, in <module>
+    from . import _gsprint as gs
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 518, in <module>
+    libgs = __win32_finddll()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 504, in __win32_finddll
+    dlls.append((LooseVersion(version), dll_path))
+ 
+2024-12-29 16:31:13,919 20836 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:31:13,956 20836 INFO ? odoo.addons.hw_drivers.interface: Device AnyDesk Printer is now connected 
+2024-12-29 16:31:14,052 20836 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:31:15,283 20836 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:31:15] "GET /hw_posbox_homepage/ping HTTP/1.1" 200 - 0 0.000 0.025
+2024-12-29 16:31:15,284 20836 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:31:15,326 20836 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:31:15] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.069
+2024-12-29 16:31:15,523 20836 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:31:15] "GET / HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 16:31:15,639 20836 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:31:15,684 20836 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:31:15] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.047
+2024-12-29 16:31:20,610 20836 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now connected 
+2024-12-29 16:31:25,639 20836 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:31:25,679 20836 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:31:25] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.041
+2024-12-29 16:31:26,986 20836 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:31:26] "GET / HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 16:31:27,384 20836 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:31:27,428 20836 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:31:27] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.045
+2024-12-29 16:31:27,724 20836 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:31:27] "GET / HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 16:31:28,090 20836 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:31:28,127 20836 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:31:28] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.038
+2024-12-29 16:31:38,277 20836 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:31:38,309 20836 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:31:38] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.034
+2024-12-29 16:31:48,588 20836 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:31:48,627 20836 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:31:48] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.041
+2024-12-29 16:31:56,241 20836 INFO ? odoo.service.server: Initiating shutdown 
+2024-12-29 16:31:56,242 20836 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-12-29 16:31:58,271 20836 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:31:58,301 20836 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:31:58] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.031
+2024-12-29 16:31:58,304 20836 ERROR ? odoo.addons.hw_drivers.exception_logger: Exception ignored in: <module 'threading' from 'C:\\Program Files\\Odoo 18.0.20241229\\python\\Lib\\threading.py'> 
+2024-12-29 16:31:58,304 20836 ERROR ? odoo.addons.hw_drivers.exception_logger: Traceback (most recent call last): 
+2024-12-29 16:31:58,304 20836 ERROR ? odoo.addons.hw_drivers.exception_logger:   File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1622, in _shutdown 
+2024-12-29 16:31:58,305 20836 ERROR ? odoo.addons.hw_drivers.exception_logger:     lock.acquire() 
+2024-12-29 16:31:58,305 20836 ERROR ? odoo.addons.hw_drivers.exception_logger: KeyboardInterrupt:  
+2024-12-29 16:32:08,793 5460 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:32:08,793 5460 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:32:08,794 5460 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:32:08,794 5460 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:32:08,843 5460 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:32:08,915 5460 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:32:08,934 5460 INFO ? odoo.addons.hw_drivers.tools.helpers: Start Nginx server: C:\Program Files\Odoo 18.0.20241229\nginx-1.22.0\nginx.exe 
+2024-12-29 16:32:08,942 5460 INFO ? odoo.addons.hw_drivers.main: IoT Box Image version: W23.11-18.0-20241229 
+2024-12-29 16:32:08,942 5460 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:32:08,942 5460 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:32:08,949 5460 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:32:09,133 5460 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py:504: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\main.py", line 113, in run
+    helpers.load_iot_handlers()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\tools\helpers.py", line 404, in load_iot_handlers
+    spec.loader.exec_module(module)
+  File "c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\drivers\PrinterDriver_W.py", line 9, in <module>
+    import ghostscript
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\__init__.py", line 32, in <module>
+    from . import _gsprint as gs
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 518, in <module>
+    libgs = __win32_finddll()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 504, in __win32_finddll
+    dlls.append((LooseVersion(version), dll_path))
+ 
+2024-12-29 16:32:09,140 5460 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:32:09,155 5460 INFO ? odoo.addons.hw_drivers.interface: Device AnyDesk Printer is now connected 
+2024-12-29 16:32:09,155 5460 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:32:09,232 5460 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:32:09,254 5460 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:32:10,257 5460 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:32:11,096 5460 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:32:11] "GET / HTTP/1.1" 200 - 0 0.000 0.024
+2024-12-29 16:32:11,203 5460 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:32:11,241 5460 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:32:11] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.038
+2024-12-29 16:32:15,854 5460 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now connected 
+2024-12-29 16:32:18,157 5460 INFO ? odoo.addons.hw_drivers.main: Ignoring sending the devices to the database: no associated database 
+2024-12-29 16:32:21,521 5460 INFO ? odoo.addons.hw_drivers.tools.helpers: Ignoring the nginx certificate check without a connected database 
+2024-12-29 16:32:21,551 5460 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:32:21] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.030
+2024-12-29 16:32:22,573 5460 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:32:22] "POST /hw_posbox_homepage/connect_to_server HTTP/1.1" 200 - 0 0.000 0.002
+2024-12-29 16:32:24,471 7964 INFO ? odoo: Odoo version 18.0-20241229 
+2024-12-29 16:32:24,471 7964 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 18.0.20241229\server\odoo.conf 
+2024-12-29 16:32:24,471 7964 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 18.0.20241229\\server\\odoo\\addons', 'c:\\program files\\odoo 18.0.20241229\\sessions\\addons\\18.0', 'c:\\program files\\odoo 18.0.20241229\\server\\odoo\\addons'] 
+2024-12-29 16:32:24,471 7964 INFO ? odoo: database: openpg@localhost:5432 
+2024-12-29 16:32:24,521 7964 WARNING ? odoo.addons.hw_drivers.tools.helpers: Could not import library crypt 
+2024-12-29 16:32:24,578 7964 ERROR ? odoo.addons.hw_drivers.main: Could not import library dbus 
+2024-12-29 16:32:24,579 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Start Nginx server: C:\Program Files\Odoo 18.0.20241229\nginx-1.22.0\nginx.exe 
+2024-12-29 16:32:24,587 7964 INFO ? odoo.addons.hw_drivers.main: IoT Box Image version: W23.11-18.0-20241229 
+2024-12-29 16:32:24,590 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:32:24,590 7964 WARNING ? odoo.addons.hw_drivers.main: An error happened when trying to get the HTTPS certificate: ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT 
+2024-12-29 16:32:24,785 7964 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 18.0.20241229\thirdparty\wkhtmltopdf.exe 
+2024-12-29 16:32:24,795 7964 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2024-12-29 16:32:25,436 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Deleted old IoT handlers 
+2024-12-29 16:32:25,463 7964 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:32:25,657 7964 WARNING ? py.warnings: C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py:504: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\main.py", line 113, in run
+    helpers.load_iot_handlers()
+  File "C:\Program Files\Odoo 18.0.20241229\server\odoo\addons\hw_drivers\tools\helpers.py", line 404, in load_iot_handlers
+    spec.loader.exec_module(module)
+  File "c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\drivers\PrinterDriver_W.py", line 9, in <module>
+    import ghostscript
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\__init__.py", line 32, in <module>
+    from . import _gsprint as gs
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 518, in <module>
+    libgs = __win32_finddll()
+  File "C:\Program Files\Odoo 18.0.20241229\python\Lib\site-packages\ghostscript\_gsprint.py", line 504, in __win32_finddll
+    dlls.append((LooseVersion(version), dll_path))
+ 
+2024-12-29 16:32:25,681 7964 INFO ? odoo.addons.hw_drivers.iot_handlers.lib.ctypes_terminal_driver: Successfully imported ctypes library "libeasyctep.dll" from c:\program files\odoo 18.0.20241229\server\odoo\addons\hw_drivers\iot_handlers\lib\ctep_w\libeasyctep.dll 
+2024-12-29 16:32:25,687 7964 INFO ? odoo.addons.hw_drivers.interface: Device AnyDesk Printer is now connected 
+2024-12-29 16:32:25,777 7964 INFO ? odoo.service.server: HTTP service (werkzeug) running on PESATTO-GR2:8069 
+2024-12-29 16:32:31,535 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:32:31,574 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:32:31] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.065
+2024-12-29 16:32:32,382 7964 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now connected 
+2024-12-29 16:32:33,349 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:32:33] "GET /hw_posbox_homepage/ping HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 16:32:33,679 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:32:33] "GET / HTTP/1.1" 200 - 0 0.000 0.001
+2024-12-29 16:32:33,933 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:32:33,987 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:32:33] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.056
+2024-12-29 16:32:44,282 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:32:44,316 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:32:44] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.035
+2024-12-29 16:32:54,588 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:32:54,622 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:32:54] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.035
+2024-12-29 16:33:04,290 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:33:04,328 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:04] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.041
+2024-12-29 16:33:14,588 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:33:14,626 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:14] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.039
+2024-12-29 16:33:24,273 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:33:24,304 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:24] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 16:33:34,592 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:33:34,623 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:34] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.033
+2024-12-29 16:33:35,343 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:35] "GET / HTTP/1.0" 200 - 0 0.000 0.001
+2024-12-29 16:33:43,065 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/collapse.js HTTP/1.0" 200 - 0 0.000 7.630
+2024-12-29 16:33:43,112 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/util/sanitizer.js HTTP/1.0" 200 - 0 0.000 7.688
+2024-12-29 16:33:43,120 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/button.js HTTP/1.0" 200 - 0 0.000 7.687
+2024-12-29 16:33:43,134 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/dropdown.js HTTP/1.0" 200 - 0 0.000 7.698
+2024-12-29 16:33:43,166 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/css/override.css HTTP/1.0" 200 - 0 0.000 7.752
+2024-12-29 16:33:43,169 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/util/index.js HTTP/1.0" 200 - 0 0.000 7.764
+2024-12-29 16:33:43,177 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.0" 200 - 0 0.000 7.767
+2024-12-29 16:33:43,179 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/util/focustrap.js HTTP/1.0" 200 - 0 0.000 7.753
+2024-12-29 16:33:43,182 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/alert.js HTTP/1.0" 200 - 0 0.000 7.751
+2024-12-29 16:33:43,203 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.0" 200 - 0 0.000 7.791
+2024-12-29 16:33:43,215 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/util/backdrop.js HTTP/1.0" 200 - 0 0.000 7.790
+2024-12-29 16:33:43,217 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/util/config.js HTTP/1.0" 200 - 0 0.000 7.797
+2024-12-29 16:33:43,219 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.0" 200 - 0 0.000 7.801
+2024-12-29 16:33:43,231 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/util/scrollbar.js HTTP/1.0" 200 - 0 0.000 7.804
+2024-12-29 16:33:43,236 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.0" 200 - 0 0.000 7.826
+2024-12-29 16:33:43,242 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/tab.js HTTP/1.0" 200 - 0 0.000 7.797
+2024-12-29 16:33:43,246 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/scrollspy.js HTTP/1.0" 200 - 0 0.000 7.803
+2024-12-29 16:33:43,259 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.0" 200 - 0 0.000 7.822
+2024-12-29 16:33:43,270 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/main.js HTTP/1.0" 200 - 0 0.000 7.822
+2024-12-29 16:33:43,273 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.0" 200 - 0 0.000 7.864
+2024-12-29 16:33:43,278 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/offcanvas.js HTTP/1.0" 200 - 0 0.000 7.838
+2024-12-29 16:33:43,279 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/tooltip.js HTTP/1.0" 200 - 0 0.000 7.837
+2024-12-29 16:33:43,280 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/owl/owl.js HTTP/1.0" 200 - 0 0.000 7.881
+2024-12-29 16:33:43,281 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.0" 200 - 0 0.000 7.874
+2024-12-29 16:33:43,286 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/carousel.js HTTP/1.0" 200 - 0 0.000 7.852
+2024-12-29 16:33:43,293 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/popover.js HTTP/1.0" 200 - 0 0.000 7.848
+2024-12-29 16:33:43,300 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/util/component-functions.js HTTP/1.0" 200 - 0 0.000 7.878
+2024-12-29 16:33:43,302 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/toast.js HTTP/1.0" 200 - 0 0.000 7.855
+2024-12-29 16:33:43,303 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.0" 200 - 0 0.000 7.874
+2024-12-29 16:33:43,370 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/Homepage.js HTTP/1.0" 200 - 0 0.000 0.003
+2024-12-29 16:33:43,372 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/store.js HTTP/1.0" 200 - 0 0.000 0.004
+2024-12-29 16:33:43,383 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/components/SingleData.js HTTP/1.0" 200 - 0 0.000 0.002
+2024-12-29 16:33:43,394 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/components/FooterButtons.js HTTP/1.0" 200 - 0 0.000 0.002
+2024-12-29 16:33:43,394 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/components/dialog/ServerDialog.js HTTP/1.0" 200 - 0 0.000 0.002
+2024-12-29 16:33:43,399 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/components/dialog/WifiDialog.js HTTP/1.0" 200 - 0 0.000 0.003
+2024-12-29 16:33:43,403 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/hooks/useStore.js HTTP/1.0" 200 - 0 0.000 0.003
+2024-12-29 16:33:43,404 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/components/dialog/UpdateDialog.js HTTP/1.0" 200 - 0 0.000 0.002
+2024-12-29 16:33:43,407 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/components/dialog/DeviceDialog.js HTTP/1.0" 200 - 0 0.000 0.004
+2024-12-29 16:33:43,412 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/components/dialog/SixDialog.js HTTP/1.0" 200 - 0 0.000 0.003
+2024-12-29 16:33:43,413 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/components/LoadingFullScreen.js HTTP/1.0" 200 - 0 0.000 0.003
+2024-12-29 16:33:43,414 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/components/IconButton.js HTTP/1.0" 200 - 0 0.000 0.002
+2024-12-29 16:33:43,421 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/components/dialog/CredentialDialog.js HTTP/1.0" 200 - 0 0.000 0.002
+2024-12-29 16:33:43,422 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/components/dialog/HandlerDialog.js HTTP/1.0" 200 - 0 0.000 0.002
+2024-12-29 16:33:43,423 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/components/dialog/RemoteDebugDialog.js HTTP/1.0" 200 - 0 0.000 0.002
+2024-12-29 16:33:43,428 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/static/src/app/components/dialog/BootstrapDialog.js HTTP/1.0" 200 - 0 0.000 0.001
+2024-12-29 16:33:43,445 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:33:43,486 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.044
+2024-12-29 16:33:43,547 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:43] "GET /favicon.ico HTTP/1.0" 404 - 0 0.000 0.001
+2024-12-29 16:33:45,272 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:33:45,307 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.037
+2024-12-29 16:33:54,283 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:33:54,315 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:33:54] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.034
+2024-12-29 16:34:04,289 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:34:04,322 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:34:04] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.034
+2024-12-29 16:34:14,291 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:34:14,327 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:34:14] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.037
+2024-12-29 16:34:24,277 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:34:24,316 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:34:24] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.041
+2024-12-29 16:34:34,296 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:34:34,331 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:34:34] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.037
+2024-12-29 16:34:44,288 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:34:44,325 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:34:44] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.038
+2024-12-29 16:34:45,581 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:34:45,631 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:34:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.051
+2024-12-29 16:34:54,280 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:34:54,314 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:34:54] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.035
+2024-12-29 16:34:55,732 7964 INFO ? odoo.addons.hw_drivers.interface: Device Win2Image is now connected 
+2024-12-29 16:34:55,733 7964 INFO ? odoo.addons.hw_drivers.interface: Device Win2PDF is now connected 
+2024-12-29 16:35:04,272 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:35:04,307 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:35:04] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.036
+2024-12-29 16:35:14,281 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:35:14,314 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:35:14] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.034
+2024-12-29 16:35:24,291 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:35:24,327 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:35:24] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.037
+2024-12-29 16:35:34,274 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:35:34,314 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:35:34] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.041
+2024-12-29 16:35:44,281 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:35:44,314 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:35:44] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.034
+2024-12-29 16:35:45,269 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:35:45,301 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:35:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.035
+2024-12-29 16:35:46,670 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:35:46] "OPTIONS /hw_drivers/action HTTP/1.0" 204 - 0 0.000 0.001
+2024-12-29 16:35:54,282 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:35:54,320 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:35:54] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.039
+2024-12-29 16:35:55,346 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:35:55] "POST /hw_drivers/action HTTP/1.0" 200 - 0 0.000 8.669
+2024-12-29 16:36:04,281 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:36:04,314 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:36:04] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.034
+2024-12-29 16:36:14,282 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:36:14,318 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:36:14] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.037
+2024-12-29 16:36:24,287 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:36:24,317 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:36:24] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.032
+2024-12-29 16:36:34,274 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:36:34,311 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:36:34] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.039
+2024-12-29 16:36:44,284 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:36:44,319 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:36:44] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.037
+2024-12-29 16:36:45,583 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:36:45,613 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:36:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.031
+2024-12-29 16:36:54,288 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:36:54,319 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:36:54] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.032
+2024-12-29 16:37:04,288 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:37:04,324 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:37:04] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.036
+2024-12-29 16:37:14,287 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:37:14,320 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:37:14] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.035
+2024-12-29 16:37:24,277 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:37:24,319 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:37:24] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.044
+2024-12-29 16:37:34,296 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:37:34,328 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:37:34] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.033
+2024-12-29 16:37:44,283 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:37:44,317 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:37:44] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.036
+2024-12-29 16:37:45,282 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:37:45,316 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:37:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.035
+2024-12-29 16:37:54,271 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:37:54,303 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:37:54] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.033
+2024-12-29 16:37:55,562 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:37:55] "POST /hw_drivers/action HTTP/1.0" 200 - 0 0.000 4.089
+2024-12-29 16:38:04,276 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:38:04,308 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:38:04] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.033
+2024-12-29 16:38:14,285 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:38:14,318 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:38:14] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.033
+2024-12-29 16:38:24,289 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:38:24,322 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:38:24] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.034
+2024-12-29 16:38:25,633 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:38:25] "POST /hw_drivers/action HTTP/1.0" 200 - 0 0.000 7.060
+2024-12-29 16:38:34,273 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:38:34,310 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:38:34] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.037
+2024-12-29 16:38:45,282 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:38:45,314 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:38:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.033
+2024-12-29 16:38:45,592 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:38:45,622 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:38:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.031
+2024-12-29 16:38:47,918 7964 INFO ? odoo.addons.hw_drivers.interface: Device COM3 is now disconnected 
+2024-12-29 16:39:45,308 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:39:45,341 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:39:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.034
+2024-12-29 16:39:45,589 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:39:45,620 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:39:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.032
+2024-12-29 16:40:45,279 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:40:45,289 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:40:45,347 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:40:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.070
+2024-12-29 16:40:45,351 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:40:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.076
+2024-12-29 16:41:45,278 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:41:45,314 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:41:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.038
+2024-12-29 16:41:45,584 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:41:45,618 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:41:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.035
+2024-12-29 16:42:45,271 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:42:45,338 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:42:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.069
+2024-12-29 16:42:45,339 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:42:45,408 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:42:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.071
+2024-12-29 16:43:45,286 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:43:45,327 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:43:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.043
+2024-12-29 16:43:45,593 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:43:45,637 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:43:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.046
+2024-12-29 16:44:45,277 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:44:45,277 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:44:45,347 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:44:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.072
+2024-12-29 16:44:45,354 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:44:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.080
+2024-12-29 16:45:45,279 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:45:45,320 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:45:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.043
+2024-12-29 16:45:45,583 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:45:45,618 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:45:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.036
+2024-12-29 16:46:45,276 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:46:45,311 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:46:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.038
+2024-12-29 16:46:45,312 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:46:45,350 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:46:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.075
+2024-12-29 16:47:45,282 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:47:45,319 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:47:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.038
+2024-12-29 16:47:45,586 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:47:45,625 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:47:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.041
+2024-12-29 16:48:45,275 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:48:45,312 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:48:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.040
+2024-12-29 16:48:45,313 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:48:45,349 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:48:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.075
+2024-12-29 16:49:45,275 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:49:45,310 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:49:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.037
+2024-12-29 16:49:45,585 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:49:45,620 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:49:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.037
+2024-12-29 16:50:45,281 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:50:45,305 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:50:45,339 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:50:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.061
+2024-12-29 16:50:45,355 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:50:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.076
+2024-12-29 16:51:45,277 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:51:45,316 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:51:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.040
+2024-12-29 16:51:45,593 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:51:45,629 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:51:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.037
+2024-12-29 16:52:45,280 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:52:45,293 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:52:45,327 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:52:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.048
+2024-12-29 16:52:45,348 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:52:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.071
+2024-12-29 16:53:45,284 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:53:45,322 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:53:45] "GET /hw_posbox_homepage/data HTTP/1.0" 200 - 0 0.000 0.040
+2024-12-29 16:53:45,593 7964 INFO ? odoo.addons.hw_drivers.tools.helpers: Your certificate OdooTempIoTBoxCertificate must be updated 
+2024-12-29 16:53:45,627 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:53:45] "GET /hw_posbox_homepage/data HTTP/1.1" 200 - 0 0.000 0.035
+2024-12-29 16:53:47,304 7964 INFO ? werkzeug: 127.0.0.1 - - [29/Dec/2024 16:53:47] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.0" 200 - 0 0.000 0.017
